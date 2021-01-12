@@ -1,27 +1,4 @@
 
-function makeCookie (){
-    document.cookie="username=Julia";
-
-    console.log("make cookie");
-}
-
-function getCookie (){
-    document.cookie="username=Julia";
-
-    let cookie =document.cookie;
-
-    console.log(cookie); 
-
-    console.log("get cookie");
-
-    console.log(cookie.split("=")[1]);
-
-    document.getElementById("putThatCookieDown") .innerHTML=cookie.split("=")[1];
-}
-
-
-
-
 //prototyping that looks real
 //try2
 function setFormMessage(formElement, type, message) {
